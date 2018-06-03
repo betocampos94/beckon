@@ -1,0 +1,234 @@
+@charset "UTF-8";
+/*CSS document*/
+
+#divb{	
+width: 100%;
+height: 10%;
+background-color: #06F;
+}
+
+.center{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#pCourseName{
+	font-family: "Play";
+	font-size: 13px;
+}
+#pCourseInstructor{
+	font-family: "Roboto";
+	font-size: 12px;
+}
+#pCourseDescription{
+	font-family: "Play";
+	font-size: 11px;
+}
+#pStudentName{
+	font-family: "Roboto";
+	font-size: 13px;
+}
+#pStudentTestimonial{
+	font-family: "Roboto";
+	font-size: 12px;
+}
+
+
+#roundImages{
+	border-radius: 500px;
+}
+
+.divCourses{
+	height: 50%;
+	width: 87%;
+	padding-left: 110px;
+
+}
+
+.divCourse1{
+	height: 100%;
+	width: 30%;
+	font-size: 14px;
+	size: 14px;
+	float: left;
+	align-content: center;	
+}
+.divCourse2{
+	height: 100%;
+	width: 30%;
+	padding-left:25px;
+	font-size: 14px;
+	size: 14px;
+	float: left;
+	padding-left: 25px;
+}
+
+.divCourse3{
+	height: 100%;
+	width: 30%;
+	padding-left:25px;
+	font-size: 14px;
+	size: 14px;
+	float:left;
+}
+
+
+.divCases{
+	height: 50%;
+	width: 87%;
+	padding-left: 110px;
+
+}
+
+.divCase1{
+	height: 100%;
+	width: 30%;
+	font-size: 14px;
+	size: 14px;
+	float: left;
+	align-content: center;	
+}
+.divCase2{
+	height: 100%;
+	width: 30%;
+	padding-left:25px;
+	font-size: 14px;
+	size: 14px;
+	float: left;
+	padding-left: 25px;
+}
+
+.divCase3{
+	height: 100%;
+	width: 30%;
+	padding-left:25px;
+	font-size: 14px;
+	size: 14px;
+	float:left;
+}
+
+
+
+
+
+.buttonProfile{
+color :white;
+background-color: #06F;
+float: left;
+width: 16.66%;
+height: 100%;
+margin: 0px;
+border:none;
+font-family: 'Roboto';
+font-size: 20px;
+}
+.buttonCourses{
+color :white;
+background-color: #06F;
+float: left;
+width: 16.66%;
+height: 100%;
+margin: 0px;
+border:none;
+font-family: 'Roboto';
+font-size: 20px;
+}
+.buttonOffers{
+color :white;
+background-color: #06F;
+float: left;
+width: 16.66%;
+height: 100%;
+margin: 0px;
+border:none;
+font-family: 'Roboto';
+font-size: 20px;
+}
+.buttonSignUp{
+color :white;
+background-color: #06F;
+float: right;
+width: 16.66%;
+height: 100%;
+margin: 0px;
+border:none;
+font-family: 'Roboto';
+font-size: 20px;
+}
+.buttonLogin{
+color :white;
+background-color: #06F;
+float: right;
+width: 16.66%;
+height: 100%;
+margin: 0px;
+border:none;
+font-family: 'Roboto';
+font-size: 20px;
+}
+#buttonProfile:hover{
+background-color:white;
+color: #06F;
+cursor: pointer;
+transition-duration: 1s;
+border:solid;
+border-color: #06F;
+transform: scale(1.1);
+
+}
+
+#buttonCourses:hover{
+background-color:white;
+color: #06F;
+cursor: pointer;
+transition-duration: 1s;
+border:solid;
+border-color: #06F;
+transform: scale(1.1);
+}
+
+#buttonOffers:hover{
+background-color:white;
+color: #06F;
+cursor: pointer;
+transition-duration: 1s;
+border:solid;
+border-color: #06F;
+transform: scale(1.1);
+}
+
+#buttonSignUp:hover{
+background-color:white;
+color: #06F;
+cursor: pointer;
+transition-duration: 1s;
+border:solid;
+border-color: #06F;
+transform: scale(1.1);
+}
+
+#buttonLogin:hover{
+background-color:white;
+color: #06F;
+cursor: pointer;
+transition-duration: 1s;
+border:solid;
+border-color: #06F;
+transform: scale(1.1);
+}
+
+#roundImage{	
+animation-name: roundImage;
+animation-duration: 10s;
+position: relative;
+animation-iteration-count: infinite;
+}
+
+
+
+@keyframes roundImage{
+	0% {border-radius: 0%}
+	50% {border-radius: 100%;}
+	100% { border-radius: 0%;}
+}
